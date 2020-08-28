@@ -1,39 +1,27 @@
 #include "raylib.h"
-#include <stdio.h> 
-#include <stdlib.h> 
 
 int main(void)
 {
-    // Initialization
     const int screenWidth = 800;
     const int screenHeight = 450;
 
-    InitWindow(screenWidth, screenHeight, "Bubble Sort");
+    InitWindow(screenWidth, screenHeight, "Bubble Sort Visualization");
 
-    SetTargetFPS(60);               // Set the application to run at 60 frames-per-second
-    
-    //Width of the bars
+    SetTargetFPS(60);               
     int n = 4;
     
-    //Number of bars
+
     const int w = 200;
     
-    //Array of bars and their state 
     int h_arr[w], states[w];
     
-    //Setting the height of bars
+   
     for (int i = 0; i < w ; i++){
         h_arr[i] = GetRandomValue(10, 440);
         states[i] = 1;
     }
     int counter = 0, flag= 0;
-    // Main game loop
-    while (!WindowShouldClose())    // Detect window close button or ESC key
-    {
-        // Update
-        //----------------------------------------------------------------------------------
-        // TODO: Update your variables here
-        //----------------------------------------------------------------------------------
+    while (!WindowShouldClose())    
         if (counter < w){
             for (int j = 0; j < w - 1 - counter; j++){
                 if (h_arr[j] > h_arr[j+1]){
@@ -56,8 +44,6 @@ int main(void)
             states[w - counter] = 2;
         }
         
-        // Draw
-        //----------------------------------------------------------------------------------
         Color color = WHITE;
         BeginDrawing();
             ClearBackground(BLACK);
@@ -75,13 +61,7 @@ int main(void)
                 DrawText("Done", screenWidth/2 - 60, screenHeight/2, 50, RED);
             }
         EndDrawing();
-        //----------------------------------------------------------------------------------
     }
-
-    // De-Initialization
-    //--------------------------------------------------------------------------------------
-    CloseWindow();        // Close window and OpenGL context
-    //--------------------------------------------------------------------------------------
-
+    CloseWindow();        
     return 0;
 }
