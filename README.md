@@ -8,6 +8,13 @@
 - Radix Sort Algorithm
 - Quick Sort Algorithm
 - Selection Sort Algorithm
+- Pancake Sort Algorithm
+- Bogo Sort Algorithm
+- Cocktail Sort Algorithm
+- Gnome Sort Algorithm
+
+
+
 
 ### Bubble Sort Algorithm 
 ![](link)
@@ -25,5 +32,17 @@
 ![](link)
 
 ### Selection Sort Algorithm 
+![](link)
+
+### Pancake Sort Algorithm 
+![](link)
+
+### Gnome Sort Algorithm 
+![](link)
+
+### Cocktail Sort Algorithm 
+![](link)
+
+### Bogo Sort Algorithm 
 ![](link)
 
