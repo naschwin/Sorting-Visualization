@@ -29,7 +29,7 @@
 ![Quick Sort](https://github.com/naschwin/Sorting-Visualization/blob/master/Images/quick.gif)
 
 ### Selection Sort Algorithm 
-![Selection Sort](https://github.com/naschwin/Sorting-Visualization/blob/master/Images/selection.gif)
+![Selection Sort](https://github.com/naschwin/Sorting-Visualization/blob/master/Images/Selection.gif)
 
 ### Pancake Sort Algorithm 
 ![Pancake Sort](https://github.com/naschwin/Sorting-Visualization/blob/master/Images/pancake.gif)
