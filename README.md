@@ -17,32 +17,29 @@
 
 
 ### Bubble Sort Algorithm 
-![](link)
+![Bubble Sort](https://github.com/naschwin/Sorting-Visualization/blob/master/Images/bubble.gif)
 
 ### Insertion Sort Algorithm 
-![](link)
+![Insertion Sort](https://github.com/naschwin/Sorting-Visualization/blob/master/Images/insertion.gif)
 
 ### Merge Sort Algorithm 
-![](link)
-
-### Radix Sort Algorithm 
-![](link)
+![Merge Sort](https://github.com/naschwin/Sorting-Visualization/blob/master/Images/Merge.gif)
 
 ### Quick Sort Algorithm 
-![](link)
+![Quick Sort](https://github.com/naschwin/Sorting-Visualization/blob/master/Images/quick.gif)
 
 ### Selection Sort Algorithm 
-![](link)
+![Selection Sort](https://github.com/naschwin/Sorting-Visualization/blob/master/Images/selection.gif)
 
 ### Pancake Sort Algorithm 
-![](link)
+![Pancake Sort](https://github.com/naschwin/Sorting-Visualization/blob/master/Images/pancake.gif)
 
 ### Gnome Sort Algorithm 
-![](link)
+![Gnome Sort](https://github.com/naschwin/Sorting-Visualization/blob/master/Images/gnome.gif)
 
 ### Cocktail Sort Algorithm 
-![](link)
+![Cocktail Sort](https://github.com/naschwin/Sorting-Visualization/blob/master/Images/cocktail.gif)
 
 ### Bogo Sort Algorithm 
-![](link)
+![Bogo Sort](https://github.com/naschwin/Sorting-Visualization/blob/master/Images/Bogo.gif)
 
